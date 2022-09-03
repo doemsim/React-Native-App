@@ -26,9 +26,7 @@ function RegisterApp() {
 
       //Validation password and confirm password 
       if(password !== confirmPassword) {
-        alert("Password Not Match!")
-      }else{
-        alert(passwordIs);
+        alert("Password Not Match!");
       }
       
       //Validation email, password, and confirm password
